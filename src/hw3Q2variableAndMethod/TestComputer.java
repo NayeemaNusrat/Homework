@@ -10,7 +10,7 @@ public class TestComputer {
 		computer1.price = 800;
 		computer1.grade = 'C';
 		computer1.madeInUsa = false;
-        computer1.Computer();
+        //computer1.Computer();
         
 
 }
