@@ -6,8 +6,8 @@ package hw7Q3Abstraction;
 		}
 
 		public void biology() {
-			// non abstarct method
-			System.out.println("biology is my favourite subject");
+			// non abstract method
+			System.out.println("biology is non abstract method of Columbia University");
 		}
 	
 	//Default Constructor

@@ -1,4 +1,4 @@
-package hw7Q3Abstraction;
+package hw8Q3Abstraction.copy;
 
 public abstract class NursingSchool {
 public abstract void hygiene();

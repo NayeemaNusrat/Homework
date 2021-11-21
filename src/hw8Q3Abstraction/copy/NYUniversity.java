@@ -1,4 +1,4 @@
-package hw7Q3Abstraction;
+package hw8Q3Abstraction.copy;
 
 public class NYUniversity {
 	public void anthropology() {

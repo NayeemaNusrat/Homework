@@ -5,7 +5,7 @@ public abstract class MedicalSchool {
 	public abstract void anatomyLab(); //abstract method
 	public void biochemistryLab() { //non abstract method
 	
-System.out.println("biochemistryLab is must for Medical School");
+System.out.println("biochemistry Lab is non abstract method of Medical School");
 }}
 
 /*
