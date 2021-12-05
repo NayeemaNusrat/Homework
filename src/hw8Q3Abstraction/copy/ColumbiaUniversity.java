@@ -1,21 +1,48 @@
 package hw8Q3Abstraction.copy;
 
 public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
-	//public void chemistry() {
-		// abstract method is not allowed in regular class
+	
+	public ColumbiaUniversity() {
+	
+		//public void chemistry() {abstract method is not allowed in regular class
 	//}
-
+	}
 	public void biology() {
 		// non abstract method
 		System.out.println("biology is non abstract method of Columbia University");
+	} 
+	////In a regular class we can only implement non-abstract methods.
+	
+	@Override
+	public void biochemistryLab() {
+		// TODO Auto-generated method stub
 	}
 
-	// Default Constructor
-
-	public ColumbiaUniversity() {
-		System.out.println("This constructor is from Columbia University");
+	@Override
+	public void caring() {
+		// TODO Auto-generated method stub
 	}
-}
+	@Override
+	public void lawInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void vocationalInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void anatomyLab() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void hygiene() {
+		// TODO Auto-generated method stub
+		
+	}
+	}
 
 // iii) You have 3 regular class names -- ColumbiaUniversity, NYUniversity,
 // RockefellerUniversity. how many keywords are used for the inheritance in Java

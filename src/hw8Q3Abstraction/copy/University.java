@@ -2,12 +2,15 @@ package hw8Q3Abstraction.copy;
 
 
 public interface University extends College, Hospital {
-	default void gymnasium() {
+	
+	public default void gymnasium() {
+		System.out.println("Gymnasium method is from University Interface.");
 	}
+
 	public static void library() {
+		System.out.println("Library method is also from University Interface.");
 	}
 }
-
 
 
 /*
