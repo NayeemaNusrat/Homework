@@ -1,6 +1,4 @@
-package hw13Selenium
-
-import java.sql.Driver;
+package hw13Selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +12,7 @@ public class TestNG_URL {
 	WebDriver driver;
 	
 	@BeforeTest
-	public void Setup() {
+	public void Setup() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\eclipse-workspace\\JavaSeleniumPractice\\driver\\chromedriver.exe");
 	driver=(WebDriver) new ChromeDriver();
 	driver.manage().window().maximize();
